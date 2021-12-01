@@ -2,9 +2,9 @@
 
 I will be updating the check boxes below as soon as the day's tasks is done.
 
-Day 1 []
+Day 1 [x]
 
-Day 2 []
+Day 2 [ ]
 
 Day 3 []
 
