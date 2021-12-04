@@ -1,25 +1,26 @@
 {
   "name": "30-days-of-tailwind",
   "version": "1.0.0",
-  "description": "A project to master tailwind css",
-  "main": "tailwind.config.js",
+  "description": "I will be updating the check boxes below as soon as the day's tasks is done.",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css",
+    "watch": "postcss css/tailwind.css -o public/build/tailwind.css --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Temiogundeji/30-days-of-tailwind.git"
   },
-  "keywords": [
-    "design",
-    "ui",
-    "library",
-    "ux"
-  ],
-  "author": "temiogundeji",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Temiogundeji/30-days-of-tailwind/issues"
   },
-  "homepage": "https://github.com/Temiogundeji/30-days-of-tailwind#readme"
+  "homepage": "https://github.com/Temiogundeji/30-days-of-tailwind#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^2.2.19"
+  }
 }

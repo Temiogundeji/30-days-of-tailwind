@@ -1,9 +1,6 @@
 module.exports = {
-  purge: {
-    enabled: true,
-    content: ["./src/**/*.html", "./src/**/*.jsx", "./src/**/*.js"],
-  },
-  darkMode: "media", // or 'media' or 'class'
+  purge: [],
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
   },
@@ -11,4 +8,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-};
+}
